@@ -1,0 +1,92 @@
+html, header, body, footer, h1, h2, h3, h4, h5, p, li, ul, ol, div, nav {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* Navigation styling */
+
+header img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  background-color: black;
+  color: white;
+  margin: 0 0 30px 0;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-size: 20px;
+}
+
+header li {
+    float: left;
+    font-size: 18px;
+}
+
+header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header li:first-child {
+  float: left;
+}
+
+header li:not(li:first-child) {
+  float: right;
+  padding-right: 20px;
+}
+
+header li a:hover {
+    background-color: #111;
+}
+
+/* Cover Pic Style */
+
+#cover-pic {
+background-image: url("img/cover-pic.jpg");
+width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+/* Body Styling */
+
+.head {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.description {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+}
+
+/* apartment layout images */
+
+#images {
+  text-align: center;
+}
